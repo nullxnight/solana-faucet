@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.logo-header-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center; 
+}
+
+.logo {
+    border-radius: 50%;
+    height: 8em;
+}
+
+.logo-title {
+    font-family: "Inter", sans-serif;
+    margin-left: 20px;
+    font-size: 2.5em;
+    color: white;
+}
+
+.mainContent {
+    border: 0px solid #e5e7eb;
+    padding: 31px;
+    width: 32em;
+    height: 14em;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(229,231,235,1);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(229,231,235,1);
+    box-shadow: 0px 0px 3px 0px rgba(229,231,235,1);
+    margin: 0 auto; 
+    margin-top: 21px;
+}
+
+.form-title {
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-size: 31px;
+    margin-bottom: 5px;
+}
+
+span {
+    margin-top: 0;
+    color: gray;
+}
+
+.input-dropdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.input-box {
+    border-radius: 9px;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid gray;
+    background: transparent;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+.dropdown {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 9px;
+    border: 1px solid gray;
+    color: white;
+    background: transparent;
+    font-family: "Inter", sans-serif;
+}
+
+.input-dropdown-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.dropdown:focus,
+.dropdown:active {
+    background-color: black;
+}
+
+.submit-btn {
+    height: 37px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+}
